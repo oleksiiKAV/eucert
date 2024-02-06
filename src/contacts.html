@@ -33,12 +33,18 @@
 
                 <!-- Header -->
                 <header id="header">
+                    
                     <div class="logo">
                         <a href="/">
                    ECA 
-                   <img src="assets/images/eca3.png">
+                   <img src="./assets/images/eca3.png">
                 </a>
                     </div>
+                    <select class="change-lang">
+                        <option value="ua">UA</option>
+                        <option value="ru">RU</option>
+                        <option value="en" selected>EN</option>
+                      </select>
                 </header>
 
                 <div class="page-heading">
@@ -88,6 +94,7 @@
                                         </div>
                                     </div>
                                 </form>
+                                <div id="contacts-response-message" class="contacts-response-message"></div>
                             </div>
                             <div class="col-md-6">
                                 <div id="map">
@@ -176,6 +183,8 @@
     <script src="./assets/js/transition.js"></script>
     <script src="./assets/js/owl-carousel.js"></script>
     <script src="./assets/js/custom.js"></script>
+    <script type="module" src="./assets/js/global.js"></script>
+    <script type="module" src="./assets/js/contacts.js"></script>
 </body>
 
 </html>
