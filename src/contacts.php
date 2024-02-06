@@ -2,9 +2,9 @@
 // $myemail = 'info@certasubaltic.pro';
 $myemail = 'oleksii.kav@gmail.com';
 
-$name            = $_POST['name'];
-$email           = $_POST['email'];
-$message         = $_POST['message'];
+$name            = $_POST['requester-name'];
+$email           = $_POST['requester-email'];
+$message         = $_POST['requester-msg'];
 
 $email_subject = "=?UTF-8?B?" . base64_encode("ASU BALTIC Request") . "?=";
 $email_body    = "Name: $name\nEmail: $email\nMessage: $message";
