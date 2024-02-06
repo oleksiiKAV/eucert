@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="ECA Certification Agency">
-    <meta name="author" content="Skavras ISV">
+    <meta name="author" content="Oleksii Kormilets">
+    <link rel="icon" type="image" href="./assets/images/eca.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
-    <title>Сертификация систем управления</title>
+    <title>ECA Сертификация систем управления</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,12 +40,17 @@
                    <img src="assets/images/eca3.png">
                 </a>
                     </div>
+                    <select class="change-lang">
+                        <option value="ua">UA</option>
+                        <option value="ru">RU</option>
+                        <option value="en" selected>EN</option>
+                      </select>
                 </header>
 
                 <div class="page-heading">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 lng-cert">
                                 <h1>Сертификация систем управления</h1>
                                 <p><strong>Европейское агентство по сертификации продукции, услуг и систем управления (ЕСА)</strong> выполняет сертификацию в соответствии с требованиями следующих международных стандартов:</p>
                                 <ul style="list-style-type: none;">
@@ -68,7 +74,7 @@
                 <section class="simple-post">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 lng-cert1">
                                 <h2>Описание стандартов</h2>
                                 <div class="down-content">
                                     <p>EN ISO 9001 базовый стандарт, определяющий основы успешной деятельности предприятия и гарантирующий, что высокое качество продукции и услуг останется неизменным с течением времени.</p>
@@ -103,7 +109,7 @@
                 <section class="simple-post">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 lng-cert2">
                                 <h2>Этапы сертификации систем управления</h2>
                                 <div class="down-content">
                                     <h4>Планирование аудита</h4>
@@ -136,7 +142,7 @@
                     </form>
                 </section>
 
-                <nav id="menu">
+                <nav id="menu" class="lng-menu">
                     <ul>
                         <li><a href="/">Главная</a></li>
                         <li><a href="about.html">О Нас</a></li>
@@ -148,34 +154,6 @@
                         <li><a href="/" style="display: none;">Новости</a></li>
                     </ul>
                 </nav>
-
-
-                <div class="featured-posts" style="display: none;">
-                    <div class="heading">
-                        <h2>Новости</h2>
-                    </div>
-                    <div class="owl-carousel owl-theme">
-                        <a href="#">
-                            <div class="featured-item">
-                                <img src="assets/images/featured_post_01.jpg" alt="новость1">
-                                <p>Сертификация систем управления безопастностью полетов</p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="featured-item">
-                                <img src="assets/images/featured_post_01.jpg" alt="новость2">
-                                <p>Сертификация систем управления безопастностью полетов</p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="featured-item">
-                                <img src="assets/images/featured_post_01.jpg" alt="новость3">
-                                <p>Сертификация систем управления безопастностью полетов</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
 
                 <!-- Footer -->
                 <footer id="footer">
@@ -197,7 +175,7 @@
     <script src="./assets/js/transition.js"></script>
     <script src="./assets/js/owl-carousel.js"></script>
     <script src="./assets/js/custom.js"></script>
-
+    <script type="module" src="./assets/js/global.js"></script>
 </body>
 
 </html>

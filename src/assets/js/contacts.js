@@ -1,5 +1,5 @@
 
-  import axios from "axios";
+  // import axios from "axios";
   document.getElementById('contact').addEventListener('submit', function(event) {
     event.preventDefault(); // Отменяем стандартное поведение отправки формы
 
