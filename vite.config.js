@@ -17,7 +17,9 @@ export default defineConfig({
     injectHTML(),
     FullReload(['./src/**/**.html']),
     copy({
-      targets: [{ src: 'src/assets', dest: 'dist' }],
+      targets: [{ src: 'src/assets', dest: 'dist' },
+      { src: 'src/**/*.php', dest: 'dist' },],
+      
       // Другие опции копирования, если необходимо
     }),
   ],
