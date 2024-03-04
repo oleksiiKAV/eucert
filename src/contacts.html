@@ -6,10 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="ECA Certification Agency">
-    <meta name="author" content="Skavras ISV">
+    
+    <meta name="author" content="Oleksii Kormilets">
+    <link rel="icon" type="image" href="./assets/images/eca.png" />
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
-    <title>Контакты</title>
+    <title>ECA Certification Agency</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -50,7 +53,7 @@
                 <div class="page-heading">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 lng-contacts">
                                 <h1>Контакты</h1>
                                 <p>Европейское агенство сертификации продукции, услуг и систем управления ECA<br/> SIA Eiropas produkcijas, pakalpojumu un vadības sistēmu sertifikācijas aģentūra</p>
                                 <p>Jelgavas iela 1B, Daugavpils, LV-5404, Latvia</br>
@@ -71,7 +74,7 @@
                             <div class="col-md-6">
 
                                 <form id="contact" action="contacts.php" method="post">
-                                    <div class="row">
+                                    <div class="row lng-cont-form">
                                         <div class="col-md-12">
                                             <fieldset>
                                                 <input name="requester-name" type="text" class="form-control" id="name" placeholder="Ваше имя..." value="" required>
@@ -97,7 +100,7 @@
                                 <div id="contacts-response-message" class="contacts-response-message"></div>
                             </div>
                             <div class="col-md-6">
-                                <div id="map">
+                                <div id="map" class="lng-cont-map">
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.3426772661883!2d26.551249315935333!3d55.874070180586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c295ae35715643%3A0x10b4ad78dc98fbc8!2zSmVsZ2F2YXMgaWVsYSAxQiwgRGF1Z2F2cGlscywgTFYtNTQwNCwg0JvQsNGC0LLQuNGP!5e0!3m2!1sru!2spl!4v1657908354254!5m2!1sru!2spl"
                                         width="100%" height="420px" loading="lazy" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                                 </div>
@@ -108,18 +111,18 @@
             </div>
         </div>
 
-
-        <div id="sidebar">
+        <load ="aside.html" />
+        <!-- <div id="sidebar">
 
             <div class="inner">
-                <!-- Search Box -->
+                
                 <section id="search" class="alt">
                     <form method="get" action="#">
                         <input type="text" name="search" id="search" placeholder="Search..." />
                     </form>
                 </section>
 
-                <nav id="menu">
+                <nav id="menu" class="lng-menu">
                     <ul>
                         <li><a href="/">Главная</a></li>
                         <li><a href="about.html">О Нас</a></li>
@@ -131,14 +134,14 @@
                         <li><a href="/" style="display: none;">Новости</a></li>
                     </ul>
                 </nav>
-                <!-- Footer -->
+                
                 <footer id="footer">
                     <p class="copyright">Copyright &copy; ECA
-                        <br>Created by <a rel="nofollow" href="https://www.skavras.com">Skavras ISV</a></p>
+                        </p>
                 </footer>
 
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
@@ -153,7 +156,7 @@
     <script src="./assets/js/owl-carousel.js"></script>
     <script src="./assets/js/custom.js"></script>
     <script type="module" src="./assets/js/global.js"></script>
-    <script type="module" src="./assets/js/contacts.js"></script>
+    <script src="./assets/js/contacts.js"></script>
 </body>
 
 </html>

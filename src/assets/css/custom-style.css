@@ -188,6 +188,7 @@ section {
     padding: 50px;
     text-align: center;
     transition: all 0.5s;
+    min-height: 379px;
 }
 
 .services .service-item .icon {
@@ -1108,19 +1109,22 @@ section.buttons .container-fluid {
     }
 }
 
-@media screen and (min-width: 1570px) {
+/* @media screen and (min-width: 1570px) {
     .service-item {
         min-height: 329px;
     }
-}
+} */
 
-@media screen and (min-width: 1566px) {
-    .service-item {
-        min-height: 379px;
+@media screen and (max-width: 1281px) {
+    .services .service-item {
+        min-height: auto;
     }
 }
 
 @media screen and (max-width: 1280px) {
+    .services .service-item {
+        min-height: auto;
+    }
     #sidebar {
         box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
         height: 100%;

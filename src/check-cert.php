@@ -1,14 +1,15 @@
 <?php
 
-$myemail = 'info@certasubaltic.pro';
+// $myemail = 'info@certasubaltic.pro';
+$myemail = 'oleksii.kav@gmail.com';
 
-$name             = $_POST['name'];
-$email            = $_POST['email'];
-$company_name     = $_POST['company-name'];
-$cert_number      = $_POST['cert-number'];
-$issuing_company  = $_POST['issuing-company'];
+$name             = $_POST['requester-name'];
+$email            = $_POST['requester-email'];
+$company_name     = $_POST['requester-company'];
+$cert_number      = $_POST['requester-cert'];
+$issuing_company  = $_POST['requester-org'];
 
-$email_subject = "=?UTF-8?B?" . base64_encode("ASU BALTIC Request Check Certificate") . "?=";
+$email_subject = "=?UTF-8?B?" . base64_encode("ECA Request Check Certificate") . "?=";
 $email_body    = "Name: $name\nEmail: $email\nCompany Name: $company_name\nCertificate Number: $cert_number\nIssuing Company: $issuing_company";
 $headers       = "From: $email\r\n";
 $headers      .= "Content-Type: text/plain; charset=UTF-8\r\n";

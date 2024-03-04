@@ -1,38 +1,35 @@
 export const langArr = {
   "banner-caption": {
-    ru: `<h4>Европейское <em>агенство сертификации</em> продукции, услуг и систем управления <em id="banner-company-name">ECA</em></h4>
+    ru: `<h4>Европейское <em>агенство по сертификации</em> продукции, услуг и систем управления <em id="banner-company-name">ECA</em></h4>
     <span>SIA Eiropas produkcijas, pakalpojumu un vadības sistēmu sertifikācijas aģentūra</span>
 
 
     <p>Jelgavas iela 1B, Daugavpils, LV-5404, Latvia</br>
         <strong>+371-29-617-653</strong> Латвия (Viber, WatsApp)</br>
-        <strong>+380-963-77-86-92</strong> Украина (Viber, WatsApp)</br>
-        <strong>+905-312-796-819 </strong> Турция (Viber, WatsApp)</br>
+        <strong>+380-963-77-86-92</strong> Украина (Viber, WatsApp)</br>        
         <strong>+359-886-711-646 </strong> Болгария (Viber, WatsApp)</br>
         Email: <strong>info@eucert.pro</strong></p>
     <div class="primary-button">
         <a href="about.html">Подробнее</a>
     </div>`,
     en: `<h4>European <em>Certification Agency</em> for Products, Services, and Management Systems <em id="banner-company-name">ECA</em></h4>
-    <span>SIA European Production, Service, and Management System Certification Agency</span>
+    <span>SIA Eiropas produkcijas, pakalpojumu un vadības sistēmu sertifikācijas aģentūra</span>
     
     <p>Jelgavas iela 1B, Daugavpils, LV-5404, Latvia</br>
         <strong>+371-29-617-653</strong> Latvia (Viber, WhatsApp)</br>
-        <strong>+380-963-77-86-92</strong> Ukraine (Viber, WhatsApp)</br>
-        <strong>+905-312-796-819 </strong> Turkey (Viber, WhatsApp)</br>
+        <strong>+380-963-77-86-92</strong> Ukraine (Viber, WhatsApp)</br>        
         <strong>+359-886-711-646 </strong> Bulgaria (Viber, WhatsApp)</br>
         Email: <strong>info@eucert.pro</strong>
     </p>
     <div class="primary-button">
         <a href="about.html">Learn More</a>
     </div>`,
-    ua: `<h4>Європейське <em>агентство сертифікації</em> продукції, послуг та систем управління <em id="banner-company-name">ECA</em></h4>
-    <span>SIA Європейське виробництво, обслуговування та агентство сертифікації систем управління</span>
+    ua: `<h4>Європейське <em>агентство з сертифікації</em> продукції, послуг та систем управління <em id="banner-company-name">ECA</em></h4>
+    <span>SIA Eiropas produkcijas, pakalpojumu un vadības sistēmu sertifikācijas aģentūra</span>
     
     <p>Jelgavas iela 1B, Daugavpils, LV-5404, Латвія</br>
         <strong>+371-29-617-653</strong> Латвія (Viber, WhatsApp)</br>
-        <strong>+380-963-77-86-92</strong> Україна (Viber, WhatsApp)</br>
-        <strong>+905-312-796-819 </strong> Туреччина (Viber, WhatsApp)</br>
+        <strong>+380-963-77-86-92</strong> Україна (Viber, WhatsApp)</br>        
         <strong>+359-886-711-646 </strong> Болгарія (Viber, WhatsApp)</br>
         Email: <strong>info@eucert.pro</strong>
     </p>
@@ -56,7 +53,7 @@ export const langArr = {
     <li><a href="/">Home</a></li>
     <li><a href="about.html">About Us</a></li>
     <li><a href="certification.html">Management Systems Certification</a></li>
-    <li><a href="ce.html">Quality Mark Labeling</a></li>
+    <li><a href="ce.html">CE Quality Mark Labeling</a></li>
     <li><a href="info.html">Information for Customers</a></li>
     <li><a href="contacts.html">Contacts</a></li>
     <li><a href="certificate-check.html">Certificate Verification</a></li>
@@ -67,7 +64,7 @@ export const langArr = {
     <li><a href="/">Головна</a></li>
     <li><a href="about.html">Про Нас</a></li>
     <li><a href="certification.html">Сертифікація систем управління</a></li>
-    <li><a href="ce.html">Маркування знаком якості</a></li>
+    <li><a href="ce.html">Маркування знаком якості CE</a></li>
     <li><a href="info.html">Інформація для замовників</a></li>
     <li><a href="contacts.html">Контакти</a></li>
     <li><a href="certificate-check.html">Перевірка сертифіката</a></li>
@@ -200,7 +197,7 @@ export const langArr = {
                 <div class="service-item first-item">
                     <div class="icon"></div>
                     <h4>Про Нас</h4>
-                    <p>Наше агентство було засноване в початку 2022 року і спеціалізується на проведенні сертифікації систем управління, товарів та послуг...</p>
+                    <p>Наше агентство було засноване в початку 2022 року і спеціалізується на проведенні сертифікації товарів, систем управління та послуг...</p>
                 </div>
             </a>
         </div>
@@ -209,7 +206,7 @@ export const langArr = {
                 <div class="service-item second-item">
                     <div class="icon"></div>
                     <h4>Сертифікація систем управління</h4>
-                    <p>Сертифікація, аудит, нагляд та ре-сертифікація послуг, товарів та систем управління</p>
+                    <p>Сертифікація, аудит, нагляд та ре-сертифікація товарів, послуг та систем управління</p>
                 </div>
             </a>
         </div>
@@ -227,7 +224,7 @@ export const langArr = {
                 <div class="service-item fourth-item">
                     <div class="icon"></div>
                     <h4>Інформація для Замовників</h4>
-                    <p>Декларація безперебійності, процедури, скарги та апеляції</p>
+                    <p>Декларація неупередженності, процедури, скарги та апеляції</p>
                 </div>
             </a>
         </div>
@@ -311,7 +308,7 @@ export const langArr = {
 </div>
 `,
     en: `<div class="col-md-6">
-    <h2>Management Systems Certification Body</h2>
+    <h2>Management Systems Certification</h2>
     <ul style="list-style-type: none;">
         <li>EN ISO 9001 Quality Management Systems;</li>
         <li>EN ISO 14001 Environmental Management Systems;</li>
@@ -325,7 +322,7 @@ export const langArr = {
     </ul>
 </div>
 <div class="col-md-6">
-    <h2>Product Certification Body</h2>
+    <h2>Product Certification</h2>
     <p>within the scope of directives</p>
     <ul style="list-style-type: none;">
         <li>2014/35/EU (LVD) Low Voltage Equipment;</li>
@@ -358,7 +355,7 @@ export const langArr = {
     en: `<div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <h2>Product and Service Certification Body in the ECA Certification System</h2>
+            <h2>Product and Service Certification in the ECA Certification System</h2>
             <div class="down-content">
                 <p>Compliance assessment with international standards is seen as confirmation that a progressive organization systematically tracks industry norms and technical documents. This is a strategic and comprehensive solution.</p>
                 <p>The certificate obtained from ECA provides the customer with the following benefits:</p>
@@ -379,7 +376,7 @@ export const langArr = {
         <div class="col-md-12">
             <h2>Орган сертифікації продукції та послуг в системі сертифікації ECA</h2>
             <div class="down-content">
-                <p>Оцінка відповідності вимогам міжнародних стандартів розглядається як підтвердження того, що прогресивна організація систематично відслідковує нормативи та технічні документи у галузі. Це стратегічне та всеосяжне рішення.</p>
+                <p>Оцінка відповідності вимогам міжнародних стандартів розглядається як підтвердження того, що сучасна організація систематично відслідковує нормативи та технічні документи у галузі. Це стратегічне та всеосяжне рішення.</p>
                 <p>Отриманий сертифікат від ECA надає замовнику наступні переваги:</p>
                 <ul>
                     <li>довіра до продукції/послуги/системи управління;</li>
@@ -577,8 +574,8 @@ export const langArr = {
   },
 
   ce: {
-    ru: `<img src="assets/images/cebanner2.jpg" alt="" style="display:none;">
-    <h2>Директива 2006/42/EС Машины и механизмы</h2>
+    ru: `
+    <h2>Директива 2006/42/EС Машины</h2>
     <div class="down-content">
         <p>Директива 2006/42/EC распространяется на следующие категории продукции:</p>
         <ul>
@@ -612,7 +609,7 @@ export const langArr = {
 
     </div>
 </div>`,
-    en: `<img src="assets/images/cebanner2.jpg" alt="" style="display:none;">
+    en: `
     <h2>Directive 2006/42/EC Machinery and Equipment</h2>
     <div class="down-content">
         <p>Directive 2006/42/EC applies to the following categories of products:</p>
@@ -641,10 +638,10 @@ export const langArr = {
         </ul>
     </div>    
     `,
-    ua: `<img src="assets/images/cebanner2.jpg" alt="" style="display:none;">
-    <h2>Директива 2006/42/ЄС Про машини та механізми</h2>
+    ua: `
+    <h2>Директива 2006/42/EC Машини</h2>
     <div class="down-content">
-        <p>Директива 2006/42/ЄС застосовується до наступних категорій продукції:</p>
+        <p>Директива 2006/42/EC застосовується до наступних категорій продукції:</p>
         <ul>
             <li>Машини та обладнання;</li>
             <li>Змінне обладнання;</li>
@@ -654,8 +651,8 @@ export const langArr = {
             <li>Знімні механічні пристрої передачі;</li>
             <li>Частково завершені машини та обладнання.</li>
         </ul>
-        <h4>Процедура оцінки відповідності директиві 2006/42/ЄС</h4>
-        <p>Залежно від потенційного класу небезпеки машин та обладнання можуть застосовуватися різні модулі сертифікації, які передбачають як самодекларування на підставі власних доказів, так і сертифікацію з приверненням нотіфікованої лабораторії, виконанням випробувань зразків та контролем умов виробництва та системи управління якістю.</p>
+        <h4>Процедура оцінки відповідності директиві 2006/42/EC</h4>
+        <p>Залежно від потенційного класу небезпеки машин та обладнання можуть застосовуватися різні модулі сертифікації, які передбачають як самодекларування на підставі власних доказів, так і сертифікацію з участю нотіфікованого органу, виконанням випробувань зразків та контролем умов виробництва та системи управління якістю.</p>
         <p>Перелік обладнання, щодо якого обов'язково залучається нотіфікований орган для оцінки відповідності директиві 2006/42/ЄС, наведено в Додатку IV цієї Директиви і включає 23 категорії машин та обладнання.</p>
         <p>У разі якщо після оцінки встановлено, що продукція повністю відповідає вимогам Директиви про безпеку машин та обладнання 2006/42/ЄС, на неї може бути видана декларація відповідності, а сама продукція може бути введена на ринок Європейського Союзу та позначена знаком CE.</p>
         <p>При видачі декларації CE для продуктів, зазначених у Директиві 2006/42/ЄС, виробник, імпортер або постачальник товарів підтверджує під свою відповідальність відповідність продукції всім вимогам Директиви. Ця декларація є невід'ємною частиною технічної документації на продукцію та повинна зберігатися протягом 10 років. Участь нотіфікованої лабораторії в процесі сертифікації не знімає та не обмежує відповідальність виробника.</p>
@@ -770,7 +767,7 @@ export const langArr = {
   ce2: {
     ru: `<h2>Директива 2014/35/EU Низковольтное оборудование</h2>
     <div class="down-content">
-        <p>Директива 2014/35/ЕC о низковольтном оборудовании распространяется на электрическое оборудование, работающее с номинальным напряжением от 50V до 1000V переменного тока и от 75V до 1500V постоянного тока. Эти значения
+        <p>Директива 2014/35/EU о низковольтном оборудовании распространяется на электрическое оборудование, работающее с номинальным напряжением от 50V до 1000V переменного тока и от 75V до 1500V постоянного тока. Эти значения
             относятся к напряжению на входе или на выходе, а не к напряжению, возникающему внутри оборудования.</p>
         <p>Электрическое оборудование должно быть сконструировано и произведено таким образом, чтобы не представлять угрозы для здоровья и безопасности людей, домашних животных и имущества.</p>
         <p>Директива применяется для широкого спектра электрического оборудования, как для бытового, так и для профессионального использования, например:</p>
@@ -804,7 +801,7 @@ export const langArr = {
     </div>`,
     en: `<h2>Directive 2014/35/EU Low Voltage Equipment</h2>
     <div class="down-content">
-        <p>Directive 2014/35/EC on low voltage equipment applies to electrical equipment operating with a nominal voltage ranging from 50V to 1000V AC and from 75V to 1500V DC. These values refer to the input or output voltage, not the voltage occurring inside the equipment.</p>
+        <p>Directive 2014/35/EU on low voltage equipment applies to electrical equipment operating with a nominal voltage ranging from 50V to 1000V AC and from 75V to 1500V DC. These values refer to the input or output voltage, not the voltage occurring inside the equipment.</p>
         <p>The electrical equipment must be designed and manufactured in such a way as not to pose any risks to the health and safety of people, domestic animals, and property.</p>
         <p>The directive applies to a wide range of electrical equipment for both household and professional use, including:</p>
         <ul>
@@ -830,39 +827,45 @@ export const langArr = {
         <p>The manufacturer must also take all necessary measures to ensure that the production process and its monitoring ensure compliance of the produced electrical equipment with the technical documentation and the safety objectives of the directive.</p>
     </div>          
     `,
-    ua: `<h2>Директива 2014/35/ЄС Електромагнітна сумісність</h2>
+    ua: `<h2>Директива 2014/35/EU Низьковольтне обладнання</h2>
     <div class="down-content">
-        <p>Область застосування директиви щодо електромагнітної сумісності охоплює практично всі електричні пристрої та обладнання, які можуть викликати електромагнітні перешкоди:</p>
+        <p>Директива 2014/35/EU про низьковольтне обладнання поширюється на електричне обладнання, що працює з номінальним напругою від 50В до 1000В змінного струму та від 75В до 1500В постійного струму. Ці значення відносяться
+            до напруги на вході або на виході, а не до напруги, що виникає всередині обладнання.</p>
+        <p>Електричне обладнання повинно бути сконструйоване та виготовлене таким чином, щоб не становити загрози для здоров'я та безпеки людей, домашніх тварин та майна.</p>
+        <p>Директива застосовується до широкого спектру електричного обладнання, як для побутового, так і для професійного використання, наприклад:</p>
         <ul>
-            <li>Радіостанції</li>
-            <li>Телевізори</li>
-            <li>Побутові електроприлади</li>
-            <li>Ручний електроінструмент</li>
-            <li>Електричні лампи та освітлювальне обладнання</li>
-            <li>Промислове електрообладнання</li>
-            <li>Електронне обладнання інформаційного призначення</li>
+            <li>освітлювальне обладнання</li>
+            <li>побутові прилади</li>
+            <li>електричні кабелі</li>
+            <li>блоки живлення</li>
+            <li>лазерне обладнання</li>
+            <li>деякі компоненти, наприклад, запобіжники, адаптери, трансформатори, детектори напруги тощо</li>
         </ul>
-        <p>Обладнання, яке не потрапляє під область застосування директиви, перелічене у Додатку II до неї. До прикладів належать лічильники електроенергії, керуючі пристрої для електропасток та радіоелектронні перешкоди.</p>
-        <p>Директива не регулює участь повідомленого органу у виконанні процедури оцінки відповідності.</p>
-        <p>ЄАС має необхідну компетентність для оцінки відповідності істотним вимогам відповідно до Директиви щодо низьковольтного обладнання та видачі сертифіката. Такий сертифікат буде гарантією для виробників/імпортерів того, що вони вводять у
-            експлуатацію і на ринок безпечне обладнання. Таким чином вони здобувають більше довіри до своєї продукції та отримують значну конкурентну перевагу на ринку.</p>
-        <p>Процедурою оцінки відповідності, яка має бути застосована відповідно до директиви, є внутрішній виробничий контроль. Згідно з цим виробник повинен скласти технічну документацію на обладнання, зокрема:</p>
-        <ul class="inner-ul">
-            <li>Загальний опис електричного обладнання;</li>
-            <li>Конструктивні та виробничі креслення та схеми компонентів, збірних одиниць, електричних кола та ін.;</li>
-            <li>Описи та пояснення, необхідні для розуміння цих креслень та схем, а також для дії електричного обладнання;</li>
-            <li>Список гармонізованих стандартів, застосованих повністю або частково;</li>
-            <li>Результати виконаних проектних розрахунків, проведених досліджень та ін.;</li>
-            <li>Протоколи випробувань.</li>
-        </ul>
-        <p>Виробник також повинен прийняти всі необхідні заходи для того, щоб виробничий процес та його моніторинг забезпечували відповідність виготовленого електрообладнання технічній документації та цілям безпеки директиви.</p>
-    </div>            
+    
+        <p>Обладнання, яке не входить до сфери застосування директиви, перераховано в Додатку II до неї. Прикладами є лічильники електроенергії, керуючі пристрої для електроогороджень та радіоелектронні перешкоди.</p>
+    
+        <p>У директиві не регулюється участь повідомленого органу для виконання процедури оцінки відповідності.</p>
+        <p>ЕСА має необхідну компетентність для оцінки відповідності суттєвим вимогам відповідно до Директиви про низьковольтне обладнання та для видачі сертифіката. Такий сертифікат буде гарантією для виробників/імпортерів того,
+            що вони вводять в експлуатацію та на ринок безпечне обладнання. Таким чином вони здобувають більше довіри до своєї продукції та отримують значне конкурентне перевагу на ринку.</p>
+        <p>Процедурою оцінки відповідності, яка повинна застосовуватися відповідно до директиви, є внутрішній виробничий контроль. Згідно з нею виробник повинен скласти технічну документацію на обладнання, а саме:
+            <ul class="inner-ul">
+                <li>загальний опис електричного обладнання;</li>
+                <li>конструктивні та виробничі креслення та схеми компонентів, збірочних одиниць, електричних кола тощо;</li>
+                <li>описи та пояснення, необхідні для розуміння цих креслень та схем, а також для дії електричного обладнання;</li>
+                <li>список гармонізованих стандартів, застосованих повністю або частково;</li>
+                <li>результати виконаних проектних обчислень, проведених досліджень тощо;</li>
+                <li>протоколи випробувань.</li>
+            </ul>
+        </p>
+        <p>Виробник також повинен прийняти всі необхідні заходи, щоб виробничий процес та його моніторинг забезпечували відповідність виробленого електрообладнання технічній документації та цілям безпеки директиви.</p>
+    </div>
+                
     `,
   },
   ce0: {
     ru: `<h1>Маркировка СЕ</h1>`,
     en: `<h1>CE Marking</h1>`,
-    ua: `<h1>Позначення CE</h1>`,
+    ua: `<h1>Маркування CE</h1>`,
   },
   info: {
     ru: `<h1>Информация для заказчиков</h1>
@@ -894,10 +897,373 @@ export const langArr = {
     <a href="assets/docs/2 Знак.pdf">Знак ЄСА</a>
     </br>
     </br>
-    <a href="assets/docs/3 Беспристрастность.pdf">Безперешкодність</a>
+    <a href="assets/docs/3 Беспристрастность.pdf">Неупередженність</a>
     </br>
     </br>
     <a href="assets/docs/4 Жалобы.pdf">Скарги</a>`,
   },
-
+  contacts: {
+    ru: `<h1>Контакты</h1>
+    <p>Европейское агенство сертификации продукции, услуг и систем управления ECA<br/> SIA Eiropas produkcijas, pakalpojumu un vadības sistēmu sertifikācijas aģentūra</p>
+    <p>Jelgavas iela 1B, Daugavpils, LV-5404, Latvia</br>
+        <strong>+371-29-617-653</strong> Латвия <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /></br>
+        <strong>+380-963-77-86-92</strong> Украина <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /></br>        
+        <strong>+359-886-711-646 </strong> Болгария <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /></br>
+        Email: <strong>info@eucert.pro</strong></p>`,
+    en: `<h1>Contact Information</h1>
+    <p>European Certification Agency for Product, Service, and Management System ECA<br/> SIA European Product, Service, and Management System Certification Agency</p>
+    <p>1B Jelgavas Street, Daugavpils, LV-5404, Latvia<br/>
+        <strong>+371-29-617-653</strong> Latvia <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>
+        <strong>+380-963-77-86-92</strong> Ukraine <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>        
+        <strong>+359-886-711-646 </strong> Bulgaria <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>
+        Email: <strong>info@eucert.pro</strong>
+    </p>
+    `,
+    ua: `<h1>Контакти</h1>
+    <p>Європейське агентство сертифікації продукції, послуг та систем управління ECA<br/> SIA Європейське агентство сертифікації продукції, послуг та систем управління</p>
+    <p>Jelgavas iela 1B, Daugavpils, LV-5404, Latvia<br/>
+        <strong>+371-29-617-653</strong> Латвія <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>
+        <strong>+380-963-77-86-92</strong> Україна <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>        
+        <strong>+359-886-711-646 </strong> Болгарія <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>
+        Email: <strong>info@eucert.pro</strong>
+    </p>
+    `,
+  },
+  "cont-form": {
+    ru: `<div class="col-md-12">
+    <fieldset>
+        <input name="requester-name" type="text" class="form-control" id="name" placeholder="Ваше имя..." value="" required>
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input type="email" name="requester-email" type="text" class="form-control" id="email" placeholder="Ваша почта..." value="" required>
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <textarea name="requester-msg" rows="6" class="form-control" id="message" placeholder="Введите ваше сообщение..." value="" required></textarea>
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <button type="submit" id="form-submit" name="send-msg" class="button" value="Отправить">Отправить</button>
+    </fieldset>
+</div>`,
+    en: `<div class="col-md-12">
+    <fieldset>
+        <input name="requester-name" type="text" class="form-control" id="name" placeholder="Your name..." value="" required>
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input type="email" name="requester-email" type="text" class="form-control" id="email" placeholder="Your email..." value="" required>
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <textarea name="requester-msg" rows="6" class="form-control" id="message" placeholder="Enter your message..." value="" required></textarea>
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <button type="submit" id="form-submit" name="send-msg" class="button" value="Send">Send</button>
+    </fieldset>
+</div>
+`,
+    ua: `<div class="col-md-12">
+    <fieldset>
+        <input name="requester-name" type="text" class="form-control" id="name" placeholder="Ваше ім'я..." value="" required>
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input type="email" name="requester-email" type="text" class="form-control" id="email" placeholder="Ваша електронна пошта..." value="" required>
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <textarea name="requester-msg" rows="6" class="form-control" id="message" placeholder="Введіть ваше повідомлення..." value="" required></textarea>
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <button type="submit" id="form-submit" name="send-msg" class="button" value="Відправити">Відправити</button>
+    </fieldset>
+</div>
+`,
+  },
+  "cont-map": {
+    ru: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.3426772661883!2d26.551249315935333!3d55.874070180586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c295ae35715643%3A0x10b4ad78dc98fbc8!2zSmVsZ2F2YXMgaWVsYSAxQiwgRGF1Z2F2cGlscywgTFYtNTQwNCwg0JvQsNGC0LLQuNGP!5e0!3m2!1sru!2spl!4v1657908354254!5m2!1sru!2spl"
+    width="100%" height="420px" loading="lazy" frameborder="0" style="border:0" allowfullscreen=""></iframe>`,
+    en: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.3426772661883!2d26.551249315935333!3d55.874070180586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c295ae35715643%3A0x10b4ad78dc98fbc8!2zSmVsZ2F2YXMgaWVsYSAxQiwgRGF1Z2F2cGlscywgTFYtNTQwNCwg0JvQsNGC0LLQuNGP!5e0!3m2!1sen!2spl!4v1657908354254!5m2!1sen!2spl"
+    width="100%" height="420px" loading="lazy" frameborder="0" style="border:0" allowfullscreen=""></iframe>`,
+    ua: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.3426772661883!2d26.551249315935333!3d55.874070180586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c295ae35715643%3A0x10b4ad78dc98fbc8!2zSmVsZ2F2YXMgaWVsYSAxQiwgRGF1Z2F2cGlscywgTFYtNTQwNCwg0JvQsNGC0LLQuNGP!5e0!3m2!1suk!2spl!4v1657908354254!5m2!1suk!2spl"
+    width="100%" height="420px" loading="lazy" frameborder="0" style="border:0" allowfullscreen=""></iframe>`,
+  },
+  check: {
+    ru: `<h1>Проверка действия сертификата</h1>
+    <p>
+      Для проверки дествия сертификата, выданного ECA,
+      заполните пожалуйста форму ниже
+    </p>
+    <p>Наш сотрудник свяжется с вами в кратчайшие сроки</p>`,
+    en: `<h1>Checking Certificate Validity</h1>
+    <p>
+        To check the validity of a certificate issued by the ECA, please fill out the form below.
+    </p>
+    <p>Our representative will contact you shortly.</p>
+    `,
+    ua: `<h1>Перевірка дії сертифіката</h1>
+    <p>
+        Для перевірки дії сертифіката, виданого агентством ECA, будь ласка, заповніть форму нижче.
+    </p>
+    <p>Наш співробітник зв'яжеться з вами найближчим часом.</p>
+    `,
+  },
+  checkform: {
+    ru: `<div class="col-md-12">
+    <fieldset>
+      <input
+        type="text"
+        class="form-control"
+        name="requester-name"
+        id="requester-name"
+        placeholder="Ваше имя..."
+        value=""
+        required
+      />
+    </fieldset>
+  </div>
+  <div class="col-md-12">
+    <fieldset>
+      <input
+        type="text"
+        class="form-control"
+        name="requester-company"
+        id="requester-company"
+        placeholder="Ваша компания..."
+        value=""
+        required
+      />
+    </fieldset>
+  </div>
+  <div class="col-md-12">
+    <fieldset>
+      <input
+        type="email"
+        class="form-control"
+        name="requester-email"
+        id="requester-email"
+        placeholder="Ваша почта... "
+        value=" "
+        required
+      />
+    </fieldset>
+  </div>
+  <div class="col-md-12">
+    <fieldset>
+      <input
+        type="text"
+        class="form-control"
+        name="requester-cert"
+        id="requester-cert"
+        placeholder="Номер сертификата..."
+        value=""
+        required
+      />
+    </fieldset>
+  </div>
+  <div class="col-md-12">
+    <fieldset>
+      <input
+        type="text"
+        class="form-control"
+        name="requester-org"
+        id="requester-org"
+        placeholder="Организация, которой выдан сертификат..."
+        value=""
+        required
+      />
+    </fieldset>
+  </div>
+  
+  <div class="col-md-12">
+    <fieldset>
+      <button
+        type="submit"
+        id="send_cert_to_check"
+        name="send_cert_to_check"
+        class="button"
+        value="Отправить "
+      >
+        Отправить
+      </button>
+    </fieldset>
+  </div>`,
+    en: `<div class="col-md-12">
+    <fieldset>
+        <input
+            type="text"
+            class="form-control"
+            name="requester-name"
+            id="requester-name"
+            placeholder="Your name..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input
+            type="text"
+            class="form-control"
+            name="requester-company"
+            id="requester-company"
+            placeholder="Your company..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input
+            type="email"
+            class="form-control"
+            name="requester-email"
+            id="requester-email"
+            placeholder="Your email..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input
+            type="text"
+            class="form-control"
+            name="requester-cert"
+            id="requester-cert"
+            placeholder="Certificate number..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input
+            type="text"
+            class="form-control"
+            name="requester-org"
+            id="requester-org"
+            placeholder="Organization issued the certificate..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <button
+            type="submit"
+            id="send_cert_to_check"
+            name="send_cert_to_check"
+            class="button"
+            value="Send"
+        >
+            Send
+        </button>
+    </fieldset>
+</div>
+`,
+    ua: `<div class="col-md-12">
+    <fieldset>
+        <input
+            type="text"
+            class="form-control"
+            name="requester-name"
+            id="requester-name"
+            placeholder="Ваше ім'я..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input
+            type="text"
+            class="form-control"
+            name="requester-company"
+            id="requester-company"
+            placeholder="Ваша компанія..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input
+            type="email"
+            class="form-control"
+            name="requester-email"
+            id="requester-email"
+            placeholder="Ваша електронна пошта..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input
+            type="text"
+            class="form-control"
+            name="requester-cert"
+            id="requester-cert"
+            placeholder="Номер сертифіката..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <input
+            type="text"
+            class="form-control"
+            name="requester-org"
+            id="requester-org"
+            placeholder="Організація, яка видала сертифікат..."
+            value=""
+            required
+        />
+    </fieldset>
+</div>
+<div class="col-md-12">
+    <fieldset>
+        <button
+            type="submit"
+            id="send_cert_to_check"
+            name="send_cert_to_check"
+            class="button"
+            value="Відправити"
+        >
+            Відправити
+        </button>
+    </fieldset>
+</div>
+`,
+  },
 }
+
+// ce0: {
+//     ru: `<h1>Маркировка СЕ</h1>`,
+//     en: `<h1>CE Marking</h1>`,
+//     ua: `<h1>Позначення CE</h1>`,
+//   },

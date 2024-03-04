@@ -17,6 +17,7 @@ function getSelectedLanguage() {
 document.addEventListener('DOMContentLoaded', () => {
   const savedLang = getSelectedLanguage();
   select.value = savedLang;
+  
   applyLanguage(savedLang);
 });
 

@@ -6,7 +6,7 @@ $name            = $_POST['requester-name'];
 $email           = $_POST['requester-email'];
 $message         = $_POST['requester-msg'];
 
-$email_subject = "=?UTF-8?B?" . base64_encode("ASU BALTIC Request") . "?=";
+$email_subject = "=?UTF-8?B?" . base64_encode("ECA Request") . "?=";
 $email_body    = "Name: $name\nEmail: $email\nMessage: $message";
 $headers       = "From: $email\r\n";
 $headers      .= "Content-Type: text/plain; charset=UTF-8\r\n";

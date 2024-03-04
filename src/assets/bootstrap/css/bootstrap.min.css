@@ -589,14 +589,16 @@ pre code {
 
 @media (min-width:992px) {
     .container {
-        max-width: 960px
+        max-width: 960px        
     }
+    
 }
 
 @media (min-width:1200px) {
     .container {
         max-width: 1140px
     }
+    
 }
 
 .container-fluid {
@@ -613,7 +615,9 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;    
+    
+    
 }
 
 .no-gutters {
