@@ -911,7 +911,7 @@ export const langArr = {
         <strong>+359-886-711-646 </strong> Болгария <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /></br>
         Email: <strong>info@eucert.pro</strong></p>`,
     en: `<h1>Contact Information</h1>
-    <p>European Certification Agency for Product, Service, and Management System ECA<br/> SIA European Product, Service, and Management System Certification Agency</p>
+    <p>European Certification Agency for Product, Service, and Management System ECA<br/> SIA Eiropas produkcijas, pakalpojumu un vadības sistēmu sertifikācijas aģentūra</p>
     <p>1B Jelgavas Street, Daugavpils, LV-5404, Latvia<br/>
         <strong>+371-29-617-653</strong> Latvia <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>
         <strong>+380-963-77-86-92</strong> Ukraine <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>        
@@ -920,7 +920,7 @@ export const langArr = {
     </p>
     `,
     ua: `<h1>Контакти</h1>
-    <p>Європейське агентство сертифікації продукції, послуг та систем управління ECA<br/> SIA Європейське агентство сертифікації продукції, послуг та систем управління</p>
+    <p>Європейське агентство сертифікації продукції, послуг та систем управління ECA<br/> SIA Eiropas produkcijas, pakalpojumu un vadības sistēmu sertifikācijas aģentūra</p>
     <p>Jelgavas iela 1B, Daugavpils, LV-5404, Latvia<br/>
         <strong>+371-29-617-653</strong> Латвія <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>
         <strong>+380-963-77-86-92</strong> Україна <img class="msg-icon" src="assets/images/icon-viber.png" alt="Viber" />, <img class="msg-icon" src="assets/images/icon-whatsapp.png" alt="WhatsApp" /><br/>        

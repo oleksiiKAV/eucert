@@ -1,6 +1,6 @@
 <?php
 // $myemail = 'info@certasubaltic.pro';
-$myemail = 'oleksii.kav@gmail.com';
+$myemail = 'info@eucert.pro';
 
 $name            = $_POST['requester-name'];
 $email           = $_POST['requester-email'];

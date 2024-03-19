@@ -20,7 +20,7 @@ document.getElementById('cert-check').addEventListener('submit', function(event)
         }
 
         document.getElementById('response-message').classList.add('success');
-        document.getElementById('cert-form').reset(); // Очищаем форму
+        document.getElementById('cert-check').reset(); // Очищаем форму
         setTimeout(function() {
           document.getElementById('response-message').textContent = '';
         }, 5000);
