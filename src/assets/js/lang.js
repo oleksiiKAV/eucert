@@ -1160,7 +1160,7 @@ export const langArr = {
             class="form-control"
             name="requester-org"
             id="requester-org"
-            placeholder="Organization issued the certificate..."
+            placeholder="The organization that received the certificate..."
             value=""
             required
         />
@@ -1239,7 +1239,7 @@ export const langArr = {
             class="form-control"
             name="requester-org"
             id="requester-org"
-            placeholder="Організація, яка видала сертифікат..."
+            placeholder="Організація, яка отримала сертифікат..."
             value=""
             required
         />
